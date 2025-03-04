@@ -72,6 +72,8 @@ body {
     max-width: 80%;
     max-height: 80vh;
     margin: auto;
+    font-variant: all-small-caps;
+    font-size: calc(1.25rem + (2 - 1) * (100vw - 320px) / (1280 - 320));
 }
 .schoolbell-regular {
     font-family: "Schoolbell", cursive;
@@ -123,6 +125,7 @@ input {
 label, .bubble {
     display: block;
     -webkit-tap-highlight-color: transparent;
+    margin-top: 1rem;
 }
 .main label {
     animation: float 4s ease-in-out infinite;

@@ -72,9 +72,6 @@
     "isEntry": true,
     "imports": [
       "_ssr.js"
-    ],
-    "css": [
-      "app/immutable/assets/_page.xtW7T6Dp.css"
     ]
   }
 }

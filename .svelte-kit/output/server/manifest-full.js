@@ -7,10 +7,10 @@ function __memo(fn) {
 return {
 	appDir: "app",
 	appPath: "app",
-	assets: new Set(["data/prompts.json","favicon.png","styles.css"]),
+	assets: new Set(["CNAME","data/prompts.json","favicon.png","styles.css"]),
 	mimeTypes: {".json":"application/json",".png":"image/png",".css":"text/css"},
 	_: {
-		client: {start:"app/immutable/entry/start.LQRGGyBO.js",app:"app/immutable/entry/app.CiwAhSh4.js",imports:["app/immutable/entry/start.LQRGGyBO.js","app/immutable/chunks/D9Vsd9c0.js","app/immutable/chunks/B2QSKqcC.js","app/immutable/entry/app.CiwAhSh4.js","app/immutable/chunks/B2QSKqcC.js","app/immutable/chunks/C_fMD25V.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
+		client: {start:"app/immutable/entry/start.Rk6FC925.js",app:"app/immutable/entry/app.BMtorpY9.js",imports:["app/immutable/entry/start.Rk6FC925.js","app/immutable/chunks/Z7BMQ1jb.js","app/immutable/chunks/B2QSKqcC.js","app/immutable/entry/app.BMtorpY9.js","app/immutable/chunks/B2QSKqcC.js","app/immutable/chunks/BSeVQmyM.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
 		nodes: [
 			__memo(() => import('./nodes/0.js')),
 			__memo(() => import('./nodes/1.js')),
