@@ -1,8 +1,13 @@
 {
-  "introductions": [],
+  "introductions": [
+    "Hello",
+    "Hi"
+  ],
   "settings": [],
   "conclusions": [],
-  "subjects": [],
+  "subjects": [
+    "World"
+  ],
   "themes": [],
   "concepts": []
 }
