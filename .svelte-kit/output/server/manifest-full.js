@@ -10,7 +10,7 @@ return {
 	assets: new Set(["CNAME","data/prompts.json","favicon.png","styles.css"]),
 	mimeTypes: {".json":"application/json",".png":"image/png",".css":"text/css"},
 	_: {
-		client: {start:"app/immutable/entry/start.BKVnXw-O.js",app:"app/immutable/entry/app.C9EbM3xL.js",imports:["app/immutable/entry/start.BKVnXw-O.js","app/immutable/chunks/BdjUpGV6.js","app/immutable/chunks/B2QSKqcC.js","app/immutable/entry/app.C9EbM3xL.js","app/immutable/chunks/B2QSKqcC.js","app/immutable/chunks/DmuDJF2h.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
+		client: {start:"app/immutable/entry/start.DWHbuPNI.js",app:"app/immutable/entry/app.BBrNjMhf.js",imports:["app/immutable/entry/start.DWHbuPNI.js","app/immutable/chunks/MaLFSQVl.js","app/immutable/chunks/B2QSKqcC.js","app/immutable/entry/app.BBrNjMhf.js","app/immutable/chunks/B2QSKqcC.js","app/immutable/chunks/CGIUej4z.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
 		nodes: [
 			__memo(() => import('./nodes/0.js')),
 			__memo(() => import('./nodes/1.js')),

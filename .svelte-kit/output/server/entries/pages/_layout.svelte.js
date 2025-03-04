@@ -1,6 +1,8 @@
-import { c as create_ssr_component } from "../../chunks/ssr.js";
+import { c as create_ssr_component, b as add_attribute } from "../../chunks/ssr.js";
+let websiteUrl = "https://story-blitz.art";
+let imageUrl = "https://story-blitz.art/favicon.png";
 const Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${slots.default ? slots.default({}) : ``}`;
+  return `${$$result.head += `<!-- HEAD_svelte-95hrst_START --><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">${$$result.title = `<title>Story Blitz - Spark Your Creativity!</title>`, ""}<meta name="description" content="Generate hilarious story prompts for students! Get random ideas to inspire funny and creative writing. Perfect for classroom activities and creative writing exercises."><meta name="keywords" content="funny story prompts, creative writing, student writing, random prompts, comedy writing, classroom activities, writing exercises, story ideas, humor, education"><meta name="author" content="Story Blitz"><meta name="robots" content="index, follow"><meta property="og:title" content="Story Blitz - Funny Story Prompts - Spark Your Creativity!"><meta property="og:description" content="Generate hilarious story prompts for students! Get random ideas to inspire funny and creative writing. Perfect for classroom activities and creative writing exercises."><meta property="og:type" content="website"><meta property="og:url"${add_attribute("content", websiteUrl, 0)}><meta property="og:image"${add_attribute("content", imageUrl, 0)}><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Story Blitz - Funny Story Prompts - Spark Your Creativity!"><meta name="twitter:description" content="Generate hilarious story prompts for students! Get random ideas to inspire funny and creative writing. Perfect for classroom activities and creative writing exercises."><meta name="twitter:image"${add_attribute("content", imageUrl, 0)}><!-- HEAD_svelte-95hrst_END -->`, ""} ${slots.default ? slots.default({}) : ``}`;
 });
 export {
   Layout as default
