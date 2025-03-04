@@ -126,6 +126,7 @@
 </section>
 <style>
     section {
+        filter: brightness(1.2) contrast(20);
         -webkit-filter: brightness(1.2) contrast(20);
         background:#fff;
     }
@@ -136,8 +137,8 @@
         padding:2rem;
         background-color: #fff;
         padding-left:40%;
-        -webkit-filter: blur(20px)
-
+        filter: blur(20px);
+        -webkit-filter: blur(20px);
     }
 
     .cat{
@@ -146,6 +147,7 @@
         height: 50px;
 
         border-radius: 50%;
+        animation: right 15s infinite;
         -webkit-animation: right 15s infinite;
         cursor: pointer;
     }
