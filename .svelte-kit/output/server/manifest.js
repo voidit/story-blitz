@@ -10,7 +10,7 @@ return {
 	assets: new Set(["CNAME","data/prompts.json","favicon.png","styles.css"]),
 	mimeTypes: {".json":"application/json",".png":"image/png",".css":"text/css"},
 	_: {
-		client: {start:"app/immutable/entry/start.Rk6FC925.js",app:"app/immutable/entry/app.BMtorpY9.js",imports:["app/immutable/entry/start.Rk6FC925.js","app/immutable/chunks/Z7BMQ1jb.js","app/immutable/chunks/B2QSKqcC.js","app/immutable/entry/app.BMtorpY9.js","app/immutable/chunks/B2QSKqcC.js","app/immutable/chunks/BSeVQmyM.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
+		client: {start:"app/immutable/entry/start.fEeA3Oeh.js",app:"app/immutable/entry/app.XqR-JN6j.js",imports:["app/immutable/entry/start.fEeA3Oeh.js","app/immutable/chunks/xnM_MHQ-.js","app/immutable/chunks/B2QSKqcC.js","app/immutable/entry/app.XqR-JN6j.js","app/immutable/chunks/B2QSKqcC.js","app/immutable/chunks/DmuDJF2h.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
 		nodes: [
 			
 		],

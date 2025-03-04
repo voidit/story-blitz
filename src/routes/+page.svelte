@@ -105,28 +105,70 @@
     });
 
     function shufflePrompt() {
+        short = !short;
         randomPrompt = getRandomPrompt();
     }
 </script>
 
 <section>
-    <!--    <div class="checkboxes">
-            {#if (concepts.length > 0)}
-                {#each concepts as c, i}
-                    <div class="col">
-                    <input type="checkbox" bind:group={conceptLines} value="{i}" name="concept-{i}" />
-                    <label for="concept-{i}">{c.term}</label>
-                    </div>
-                {/each}
-
-            {/if}
-        </div>-->
     <div class="main">
-        <!--        <button on:click={shufflePrompt}>Shuffle</button>-->
 
         <div>{@html randomPrompt}</div>
-        <label>
-            <input class="bubble" name="dummy" on:click={shufflePrompt} type="checkbox" value="on">
-        </label>
+
+        <div class="father-div" on:click={shufflePrompt}>
+            <div class="cat">
+                <div class="dog">
+                    <div></div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
+<style>
+    section {
+        -webkit-filter: brightness(1.2) contrast(20);
+        background:#fff;
+    }
+    .father-div{
+        width: 50%;
+        height:5vh;
+        margin: 0 auto;
+        padding:2rem;
+        background-color: #fff;
+        padding-left:40%;
+        -webkit-filter: blur(20px)
+
+    }
+
+    .cat{
+        background: #000;
+        width: 50px;
+        height: 50px;
+
+        border-radius: 50%;
+        -webkit-animation: right 15s infinite;
+        cursor: pointer;
+    }
+
+    @-webkit-keyframes right {
+        0%,100%   { margin-left: 100px }
+        50% { margin-left: -100px }
+    }
+
+    .dog{
+        background: #000;
+        width: 150px;
+        height: 150px;
+
+        border-radius: 250px;
+        -webkit-animation: lefty 5s infinite;
+        position:relative;
+        z-index:4;
+        cursor: pointer;
+    }
+
+    @-webkit-keyframes lefty {
+        0%,100%   { margin-left: -250px }
+        50% { margin-left: -50px }
+    }
+</style>

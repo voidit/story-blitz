@@ -72,6 +72,9 @@
     "isEntry": true,
     "imports": [
       "_ssr.js"
+    ],
+    "css": [
+      "app/immutable/assets/_page.DaOS7ADp.css"
     ]
   }
 }
