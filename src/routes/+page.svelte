@@ -6,6 +6,7 @@
     let usedPrompts = new Set();
     let prompt = null;
     let short = false;
+    $: intro = '';
 
     async function fetchPrompts() {
         try {
@@ -48,8 +49,10 @@
             resolutions,
             flaws,
             powers,
-            creatures
+            creatures,
+            introductions
         } = data;
+        intro = oneOf(introductions);
         return [
             {
                 id: 1,
@@ -112,13 +115,14 @@
 
 <section>
     <div class="main">
-
+        {#if intro}<h2>{intro}</h2>{/if}
         <div>{@html randomPrompt}</div>
 
         <div class="father-div" on:click={shufflePrompt}>
             <div class="cat">
                 <div class="dog">
-                    <div></div>
+                    <i class="fal fa-smile"></i>
+                    <div>Blitz!</div>
                 </div>
             </div>
         </div>
@@ -128,21 +132,20 @@
     section {
         filter: brightness(1.2) contrast(20);
         -webkit-filter: brightness(1.2) contrast(20);
-        background:#fff;
     }
     .father-div{
         width: 50%;
         height:5vh;
         margin: 0 auto;
         padding:2rem;
-        background-color: #fff;
+        /*background-color: #fff;*/
         padding-left:40%;
         filter: blur(20px);
         -webkit-filter: blur(20px);
     }
 
     .cat{
-        background: #000;
+        background-color: black;
         width: 50px;
         height: 50px;
 
@@ -150,27 +153,43 @@
         animation: right 15s infinite;
         -webkit-animation: right 15s infinite;
         cursor: pointer;
+/*        background-image: linear-gradient(-45deg, #ee7752, #e73c7e);
+        background-size: 400% 400%;*/
     }
 
     @-webkit-keyframes right {
-        0%,100%   { margin-left: 100px }
-        50% { margin-left: -100px }
+        0%,100%   {
+            margin-left: 10px;
+            /*background-position: 0% 50%;*/
+        }
+        50% {
+            margin-left: -50px;
+            /*background-position: 100% 50%;*/
+        }
     }
 
     .dog{
-        background: #000;
-        width: 150px;
-        height: 150px;
+        background-color: black;
+        width: 100px;
+        height: 100px;
 
-        border-radius: 250px;
+        border-radius: 50%;
         -webkit-animation: lefty 5s infinite;
         position:relative;
         z-index:4;
         cursor: pointer;
+/*        background: linear-gradient(-45deg, #ee7752, #e73c7e);
+        background-size: 400% 400%;*/
     }
 
     @-webkit-keyframes lefty {
-        0%,100%   { margin-left: -250px }
-        50% { margin-left: -50px }
+        0%,100%   {
+            margin-left: -250px;
+            /*background-position: 0% 50%;*/
+        }
+        50% {
+            margin-left: -50px;
+            /*background-position: 100% 50%;*/
+        }
     }
 </style>
