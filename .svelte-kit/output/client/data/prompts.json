@@ -145,56 +145,56 @@
   ],
   "introductions": [
     {
-      "phrase": "Once upon a time..",
-      "context": "Ideal for fairy tales and fantasy stories, emphasizing distance and otherworldliness"
+      "name": "Once upon a time..",
+      "description": "Ideal for fairy tales and fantasy stories, emphasizing distance and otherworldliness"
     },
     {
-      "phrase": "In a land far away..",
-      "context": "Ideal for fairy tales and fantasy stories, emphasizing distance and otherworldliness"
+      "name": "In a land far away..",
+      "description": "Ideal for fairy tales and fantasy stories, emphasizing distance and otherworldliness"
     },
     {
-      "phrase": "Long ago, in a time before..",
-      "context": "Suits historical or mythical narratives, highlighting the passage of time"
+      "name": "Long ago, in a time before..",
+      "description": "Suits historical or mythical narratives, highlighting the passage of time"
     },
     {
-      "phrase": "There was a time when..",
-      "context": "A more versatile and straightforward option, applicable to various genres"
+      "name": "There was a time when..",
+      "description": "A more versatile and straightforward option, applicable to various genres"
     },
     {
-      "phrase": "In the days of old..",
-      "context": "Evokes a sense of tradition and antiquity, suitable for legends and folklore"
+      "name": "In the days of old..",
+      "description": "Evokes a sense of tradition and antiquity, suitable for legends and folklore"
     },
     {
-      "phrase": "Before the world was as we know it..",
-      "context": "Best for creation myths or stories with a significant world-altering event"
+      "name": "Before the world was as we know it..",
+      "description": "Best for creation myths or stories with a significant world-altering event"
     },
     {
-      "phrase": "Many moons ago..",
-      "context": "Poetic and evocative, particularly effective in stories with a natural or celestial theme"
+      "name": "Many moons ago..",
+      "description": "Poetic and evocative, particularly effective in stories with a natural or celestial theme"
     },
     {
-      "phrase": "In a forgotten age..",
-      "context": "Creates a sense of mystery and lost history, suitable for epic or adventure tales"
+      "name": "In a forgotten age..",
+      "description": "Creates a sense of mystery and lost history, suitable for epic or adventure tales"
     },
     {
-      "phrase": "When magic still walked the earth..",
-      "context": "Perfect for fantasy narratives where magic is a prominent element"
+      "name": "When magic still walked the earth..",
+      "description": "Perfect for fantasy narratives where magic is a prominent element"
     },
     {
-      "phrase": "In a realm beyond our own..",
-      "context": "Emphasizes the fantastical and otherworldly, ideal for high fantasy or science fiction"
+      "name": "In a realm beyond our own..",
+      "description": "Emphasizes the fantastical and otherworldly, ideal for high fantasy or science fiction"
     },
     {
-      "phrase": "Before the turning of the ages..",
-      "context": "A dramatic and epic opening, suitable for stories with a grand scope"
+      "name": "Before the turning of the ages..",
+      "description": "A dramatic and epic opening, suitable for stories with a grand scope"
     },
     {
-      "phrase": "In the heart of the ancient forest..",
-      "context": "More location based, and pulls the reader directly into the story's setting"
+      "name": "In the heart of the ancient forest..",
+      "description": "More location based, and pulls the reader directly into the story's setting"
     },
     {
-      "phrase": "In a kingdom that no longer exists..",
-      "context": "Adds a sense of melancholy and loss, suitable for stories of fallen empires or lost civilizations"
+      "name": "In a kingdom that no longer exists..",
+      "description": "Adds a sense of melancholy and loss, suitable for stories of fallen empires or lost civilizations"
     }
   ],
   "environments": [

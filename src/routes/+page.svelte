@@ -6,7 +6,8 @@
     let usedPrompts = new Set();
     let prompt = null;
     let short = false;
-    $: intro = '';
+    let intro = 'Story Blitz';
+    let plot = '';
 
     async function fetchPrompts() {
         try {
@@ -50,9 +51,14 @@
             flaws,
             powers,
             creatures,
-            introductions
+            introductions,
+            plots = []
         } = data;
-        intro = oneOf(introductions);
+        intro = introductions[Math.floor(Math.random() * introductions.length)].name;
+        if(plots.length > 0) {
+            let whichPlot = Math.floor(Math.random() * plots.length) || null;
+            plot = (whichPlot) ? `<b>${plots[whichPlot].name}:</b> ${plots[whichPlot].description}` : '';
+        }
         return [
             {
                 id: 1,
@@ -117,6 +123,7 @@
     <div class="main">
         {#if intro}<h2>{intro}</h2>{/if}
         <div>{@html randomPrompt}</div>
+        {#if plot}<small>{@html plot}</small>{/if}
 
         <div class="father-div" on:click={shufflePrompt}>
             <div class="cat">
@@ -132,6 +139,11 @@
     section {
         filter: brightness(1.2) contrast(20);
         -webkit-filter: brightness(1.2) contrast(20);
+    }
+    small {
+        border-top: black 1px dotted;
+        padding-top: 0.5rem;
+        margin-top: 1.2rem;
     }
     .father-div{
         width: 50%;
