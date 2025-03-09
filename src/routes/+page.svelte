@@ -1,5 +1,6 @@
 <script>
     import {onMount} from 'svelte';
+    import CopyText from '$lib/CopyText.svelte';
 
     let dataJSON = null;
     let randomPrompt = '';
@@ -144,10 +145,10 @@
 
 <section>
     <div class="main">
+        <CopyText textToCopy={randomPrompt} />
         {#if intro}<h2>{intro}</h2>{/if}
         <div>{@html randomPrompt}</div>
         {#if plot}<small>{@html plot}</small>{/if}
-
         <div class="father-div" on:click={shufflePrompt}>
             <div class="cat">
                 <div class="dog">
