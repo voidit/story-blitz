@@ -1211,7 +1211,7 @@
   "genres": [
     {
       "name": "Fantasy",
-      "description": "The story involves magic, mythical creatures, and set in imaginary worlds. Subgenres include high fantasy, low fantasy, urban fantasy, and fairy tales"
+      "description": "The story involves magic, mythical creatures, and set in imaginary worlds."
     },
     {
       "name": "High Fantasy",
@@ -1231,11 +1231,39 @@
     },
     {
       "name": "Science Fiction",
-      "description": "The story explores the impact of science and technology on society and individuals, set in the future or alternate realities. Subgenres include cyberpunk, space opera, dystopian, and time travel"
+      "description": "The story explores the impact of science and technology on society and individuals, set in the future or alternate realities."
+    },
+    {
+      "name": "Cyberpunk Fiction",
+      "description": "Cyberpunk fiction explores the impact of science and technology on society and individuals, set in the future or alternate realities."
+    },
+    {
+      "name": "Space Opera Fiction",
+      "description": "Space Opera fiction explores the impact of science and technology on society and individuals, set in the future or alternate realities."
+    },
+    {
+      "name": "Dystopian Fiction",
+      "description": "Dystopian fiction explores the impact of science and technology on society and individuals, set in the future or alternate realities."
+    },
+    {
+      "name": "Time Travel Fiction",
+      "description": "Time travel fiction explores the impact of science and technology on society and individuals, set in the future or alternate realities."
     },
     {
       "name": "Horror",
-      "description": "The story is designed to evoke fear, suspense, and dread, involving supernatural or psychological elements. Subgenres include gothic horror, psychological horror, and slasher"
+      "description": "The story is designed to evoke fear, suspense, and dread, involving supernatural or psychological elements."
+    },
+    {
+      "name": "Gothic Horror",
+      "description": "Gothic horror, designed to evoke fear, suspense, and dread, involving supernatural or psychological elements."
+    },
+    {
+      "name": "Psychological Horror",
+      "description": "Psychological horror story, designed to evoke fear, suspense, and dread, involving supernatural or psychological elements."
+    },
+    {
+      "name": "Slasher Horror",
+      "description": "Slasher horror story, designed to evoke fear, suspense, and dread, involving supernatural or psychological elements."
     },
     {
       "name": "Mystery",
@@ -1587,17 +1615,17 @@
     {
       "name": "Aladdin's Lamp",
       "origin": "Arabian Nights",
-      "description": "Grants wishes when rubbed"
+      "description": "An object that grants wishes when rubbed"
     },
     {
       "name": "Excalibur",
       "origin": "Arthurian Legend",
-      "description": "Symbol of rightful kingship, grants invincibility"
+      "description": "Symbol of rightful kingship, an object that grants invincibility"
     },
     {
       "name": "The Golden Fleece",
       "origin": "Greek Mythology",
-      "description": "Symbol of wealth and power, grants prosperity"
+      "description": "Symbol of wealth and power, an object that grants prosperity"
     },
     {
       "name": "The Magic Mirror",
@@ -1617,17 +1645,17 @@
     {
       "name": "The Philosopher's Stone",
       "origin": "Alchemy/Legend",
-      "description": "Transforms base metals into gold, grants immortality"
+      "description": "Transforms base metals into gold, an object that grants immortality"
     },
     {
       "name": "The Magic Wand",
       "origin": "Various Fairy Tales",
-      "description": "Grants the user the ability to perform magic"
+      "description": "An object that grants the user the ability to perform magic"
     },
     {
       "name": "The Ring of Gyges",
       "origin": "Greek Mythology",
-      "description": "Grants invisibility"
+      "description": "An object that grants invisibility"
     },
     {
       "name": "The Magic Carpet",
@@ -1642,7 +1670,7 @@
     {
       "name": "The Golden Apple",
       "origin": "Greek Mythology",
-      "description": "Grants immortality or causes discord"
+      "description": "an object that grants immortality or causes discord"
     },
     {
       "name": "The Magic Comb",
@@ -1667,7 +1695,7 @@
     {
       "name": "The Magic Sword",
       "origin": "Various Fairy Tales",
-      "description": "Grants extraordinary combat abilities"
+      "description": "an object that grants extraordinary combat abilities"
     },
     {
       "name": "The Magic Potion",
@@ -1687,7 +1715,7 @@
     {
       "name": "The Magic Shoes",
       "origin": "Various Fairy Tales",
-      "description": "Grants the wearer extraordinary speed or dancing abilities"
+      "description": "an object that grants the wearer extraordinary speed or dancing abilities"
     },
     {
       "name": "The Magic Mirror Shards",
@@ -1697,7 +1725,7 @@
     {
       "name": "The Magic Belt",
       "origin": "Various Mythologies",
-      "description": "Grants strength or protection"
+      "description": "an object that grants strength or protection"
     },
     {
       "name": "The Magic Lute",
@@ -1712,7 +1740,7 @@
     {
       "name": "The Magic Stone",
       "origin": "Various Fairy Tales",
-      "description": "Grants wishes, or reveals hidden truths"
+      "description": "an object that grants wishes, or reveals hidden truths"
     },
     {
       "name": "The Magic Thimble",
@@ -1722,7 +1750,7 @@
     {
       "name": "The Magic Feather",
       "origin": "Various Fairy Tales",
-      "description": "Grants flight or protection"
+      "description": "an object that grants flight or protection"
     },
     {
       "name": "The Magic Drum",
@@ -1737,7 +1765,7 @@
     {
       "name": "The Magic Cap",
       "origin": "Various Fairy Tales",
-      "description": "Grants invisibility or shapeshifting"
+      "description": "an object that grants invisibility or shapeshifting"
     },
     {
       "name": "The Magic Bag",
@@ -1777,12 +1805,12 @@
     {
       "name": "The Magic Necklace",
       "origin": "Various Fairy Tales",
-      "description": "Grants protection or beauty"
+      "description": "an object that grants protection or beauty"
     },
     {
       "name": "The Magic Dice",
       "origin": "Various Fairy Tales",
-      "description": "Determines fate or grants wishes"
+      "description": "Determines fate or an object that grants wishes"
     },
     {
       "name": "The Magic Book",
@@ -1807,7 +1835,7 @@
     {
       "name": "The Magic Gloves",
       "origin": "Various Fairy Tales",
-      "description": "Grants strength or control over elements"
+      "description": "an object that grants strength or control over elements"
     },
     {
       "name": "The Magic Net",
@@ -1822,7 +1850,7 @@
     {
       "name": "The Magic Powder",
       "origin": "Various Fairy Tales",
-      "description": "Grants flight or invisibility"
+      "description": "an object that grants flight or invisibility"
     },
     {
       "name": "The Magic Ink",
