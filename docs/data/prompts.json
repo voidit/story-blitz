@@ -1211,47 +1211,63 @@
   "genres": [
     {
       "name": "Fantasy",
-      "description": "Stories involving magic, mythical creatures, and set in imaginary worlds. Subgenres include high fantasy, low fantasy, urban fantasy, and fairy tales"
+      "description": "The story involves magic, mythical creatures, and set in imaginary worlds. Subgenres include high fantasy, low fantasy, urban fantasy, and fairy tales"
+    },
+    {
+      "name": "High Fantasy",
+      "description": "High fantasy involving magic, mythical creatures, and set in imaginary worlds."
+    },
+    {
+      "name": "Low Fantasy",
+      "description": "Low fantasy involving magic, mythical creatures, and set in imaginary worlds."
+    },
+    {
+      "name": "Urban Fantasy",
+      "description": "Urban fantasy involving magic, mythical creatures, and set in imaginary worlds."
+    },
+    {
+      "name": "Fairy Tale",
+      "description": "Fairy tale involving magic, mythical creatures, and set in imaginary worlds."
     },
     {
       "name": "Science Fiction",
-      "description": "Stories exploring the impact of science and technology on society and individuals, set in the future or alternate realities. Subgenres include cyberpunk, space opera, dystopian, and time travel"
+      "description": "The story explores the impact of science and technology on society and individuals, set in the future or alternate realities. Subgenres include cyberpunk, space opera, dystopian, and time travel"
     },
     {
       "name": "Horror",
-      "description": "Stories designed to evoke fear, suspense, and dread, involving supernatural or psychological elements. Subgenres include gothic horror, psychological horror, and slasher"
+      "description": "The story is designed to evoke fear, suspense, and dread, involving supernatural or psychological elements. Subgenres include gothic horror, psychological horror, and slasher"
     },
     {
       "name": "Mystery",
-      "description": "Stories centered around solving a puzzle or crime, involving detectives or investigators. Subgenres include detective fiction, thriller, and suspense"
+      "description": "The story is centered around solving a puzzle or crime, involving detectives or investigators. Subgenres include detective fiction, thriller, and suspense"
     },
     {
       "name": "Thriller",
-      "description": "Stories that focus on generating suspense, excitement, and anticipation, involving high stakes and danger. Subgenres include psychological thriller, action thriller, and espionage thriller"
+      "description": "The story that focuses on generating suspense, excitement, and anticipation, involving high stakes and danger. Subgenres include psychological thriller, action thriller, and espionage thriller"
     },
     {
       "name": "Romance",
-      "description": "Stories that focus on romantic relationships and the emotional journey of the characters involved. Subgenres include contemporary romance, historical romance, and paranormal romance"
+      "description": "The story focuses on romantic relationships and the emotional journey of the characters involved. Subgenres include contemporary romance, historical romance, and paranormal romance"
     },
     {
       "name": "Comedy",
-      "description": "Stories designed to evoke laughter and amusement, using humor, satire, or irony. Subgenres include romantic comedy, slapstick, and dark comedy"
+      "description": "The story is designed to evoke laughter and amusement, using humor, satire, or irony. Subgenres include romantic comedy, slapstick, and dark comedy"
     },
     {
       "name": "Historical Fiction",
-      "description": "Stories set in the past, blending fictional characters and events with real historical settings and figures"
+      "description": "The story is set in the past, blending fictional characters and events with real historical settings and figures"
     },
     {
       "name": "Adventure",
-      "description": "Stories that focus on exciting and dangerous journeys or quests, involving exploration and discovery"
+      "description": "The story that focuses on exciting and dangerous journeys or quests, involving exploration and discovery"
     },
     {
       "name": "Dystopian",
-      "description": "Stories set in a future or imagined society characterized by oppression, control, and social inequality"
+      "description": "The story is set in a future or imagined society characterized by oppression, control, and social inequality"
     },
     {
       "name": "Magical Realism",
-      "description": "A genre where magical elements are interwoven with realistic settings and situations, blurring the lines between fantasy and reality"
+      "description": "A story where magical elements are interwoven with realistic settings and situations, blurring the lines between fantasy and reality"
     },
     {
       "name": "Steampunk",
@@ -1259,15 +1275,15 @@
     },
     {
       "name": "Fairy Tale",
-      "description": "Traditional stories, involving magical elements and archetypal characters, typically with a moral or lesson"
+      "description": "Traditional story involving magical elements and archetypal characters, typically with a moral or lesson"
     },
     {
       "name": "Western",
-      "description": "Stories set in the American Old West, involving cowboys, outlaws, and frontier life"
+      "description": "The story is set in the American Old West, involving cowboys, outlaws, and frontier life"
     },
     {
       "name": "Psychological Drama",
-      "description": "Stories that explore the inner lives and emotional struggles of characters, focusing on their psychological motivations and conflicts"
+      "description": "The story explores the inner lives and emotional struggles of characters, focusing on their psychological motivations and conflicts"
     }
   ],
   "tones": [

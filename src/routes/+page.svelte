@@ -62,23 +62,23 @@
         return [
             {
                 id: 1,
-                body: `${oneOf(protagonists)} ${oneOf(incidents)} in ${getOne(settings)} to ${oneOf(goals)}, facing ${oneOf(obstacles)} and ${oneOf(challenges)} along the way.`,
+                body: `The One ${oneOf(protagonists)} ${oneOf(incidents)} in ${getOne(settings)} to ${oneOf(goals)}, facing ${oneOf(obstacles)} and ${oneOf(challenges)} along the way.`,
             },
             {
                 id: 2,
-                body: `${oneOf(protagonists)}  ${oneOf(incidents)}, experiences ${oneOf(challenges)}  and ${oneOf(adventures)}, and returns to ${oneOf(environments)} transformed.`,
+                body: `Main character ${oneOf(protagonists)}  ${oneOf(incidents)}, experiences ${oneOf(challenges)}  and ${oneOf(adventures)}, and returns to ${oneOf(environments)} transformed.`,
             },
             {
                 id: 3,
-                body: `${oneOf(protagonists)} embarks on a journey to find ${oneOf(valuables)} and ${oneOf(goals)}.`,
+                body: `Lead character ${oneOf(protagonists)} embarks on a journey to find ${oneOf(valuables)} and ${oneOf(goals)}.`,
             },
             {
                 id: 4,
-                body: `${oneOf(protagonists)} travels to ${oneOf(tones)} ${getOne(settings)}, experiences ${oneOf(transformations)}, and returns to ${oneOf(environments)} with ${oneOf(problems)}.`,
+                body: `Hero(ine) ${oneOf(protagonists)} travels to ${oneOf(tones)} ${getOne(settings)}, experiences ${oneOf(transformations)}, and returns to ${oneOf(environments)} with ${oneOf(problems)}.`,
             },
             {
                 id: 5,
-                body: `${oneOf(protagonists)} travels to ${oneOf(environments)}, experiences ${oneOf(transformations)}, and returns to ${oneOf(environments)} with ${oneOf(valuables)}.`,
+                body: `One of those who ${oneOf(protagonists)} travels to ${oneOf(environments)}, experiences ${oneOf(transformations)}, and returns to ${oneOf(environments)} with ${oneOf(valuables)}.`,
             },
             {
                 id: 6,
@@ -90,7 +90,7 @@
             },
             {
                 id: 8,
-                body: `${oneOf(protagonists)} undergoes ${oneOf(problems)}, ${oneOf(transformations)} from ${getOne(settings)} to ${oneOf(goals)}, after a period of ${oneOf(challenges)}  and ${oneOf(obstacles)}.`
+                body: `Protagonist ${oneOf(protagonists)} undergoes ${oneOf(problems)}, ${oneOf(transformations)} from ${getOne(settings)} to ${oneOf(goals)}, after a period of ${oneOf(challenges)}  and ${oneOf(obstacles)}.`
             }];
     };
     $: getRandomPrompt = () => {
