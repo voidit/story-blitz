@@ -107,7 +107,7 @@
             },
             {
                 id: 10,
-                body: `${oneOf(creatures)} ${oneOf(adventures)} a ${oneOf(problems)} and saves the ${getOne(settings)}.`
+                body: `${oneOf(creatures)} ${oneOf(adventures)} and ${oneOf(problems)}, and saves the ${getOne(settings)}.`
             },
             {
                 id: 11,

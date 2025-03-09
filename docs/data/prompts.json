@@ -145,55 +145,55 @@
   ],
   "introductions": [
     {
-      "name": "Once upon a time..",
+      "name": "Once upon a time...",
       "description": "Ideal for fairy tales and fantasy stories, emphasizing distance and otherworldliness"
     },
     {
-      "name": "In a land far away..",
+      "name": "In a land far away...",
       "description": "Ideal for fairy tales and fantasy stories, emphasizing distance and otherworldliness"
     },
     {
-      "name": "Long ago, in a time before..",
+      "name": "Long ago, in a time before...",
       "description": "Suits historical or mythical narratives, highlighting the passage of time"
     },
     {
-      "name": "There was a time when..",
+      "name": "There was a time when...",
       "description": "A more versatile and straightforward option, applicable to various genres"
     },
     {
-      "name": "In the days of old..",
+      "name": "In the days of old...",
       "description": "Evokes a sense of tradition and antiquity, suitable for legends and folklore"
     },
     {
-      "name": "Before the world was as we know it..",
+      "name": "Before the world was as we know it...",
       "description": "Best for creation myths or stories with a significant world-altering event"
     },
     {
-      "name": "Many moons ago..",
+      "name": "Many moons ago...",
       "description": "Poetic and evocative, particularly effective in stories with a natural or celestial theme"
     },
     {
-      "name": "In a forgotten age..",
+      "name": "In a forgotten age...",
       "description": "Creates a sense of mystery and lost history, suitable for epic or adventure tales"
     },
     {
-      "name": "When magic still walked the earth..",
+      "name": "When magic still walked the earth...",
       "description": "Perfect for fantasy narratives where magic is a prominent element"
     },
     {
-      "name": "In a realm beyond our own..",
+      "name": "In a realm beyond our own...",
       "description": "Emphasizes the fantastical and otherworldly, ideal for high fantasy or science fiction"
     },
     {
-      "name": "Before the turning of the ages..",
+      "name": "Before the turning of the ages...",
       "description": "A dramatic and epic opening, suitable for stories with a grand scope"
     },
     {
-      "name": "In the heart of the ancient forest..",
+      "name": "In the heart of the ancient forest...",
       "description": "More location based, and pulls the reader directly into the story's setting"
     },
     {
-      "name": "In a kingdom that no longer exists..",
+      "name": "In a kingdom that no longer exists...",
       "description": "Adds a sense of melancholy and loss, suitable for stories of fallen empires or lost civilizations"
     }
   ],
@@ -1211,123 +1211,123 @@
   "genres": [
     {
       "name": "Fantasy",
-      "description": "The story involves magic, mythical creatures, and set in imaginary worlds."
+      "description": "The story involves magic, mythical creatures, and set in imaginary worlds"
     },
     {
       "name": "High Fantasy",
-      "description": "High fantasy involving magic, mythical creatures, and set in imaginary worlds."
+      "description": "High fantasy involving magic, mythical creatures, and set in imaginary worlds"
     },
     {
       "name": "Low Fantasy",
-      "description": "Low fantasy involving magic, mythical creatures, and set in imaginary worlds."
+      "description": "Low fantasy involving magic, mythical creatures, and set in imaginary worlds"
     },
     {
       "name": "Urban Fantasy",
-      "description": "Urban fantasy involving magic, mythical creatures, and set in imaginary worlds."
+      "description": "Urban fantasy involving magic, mythical creatures, and set in imaginary worlds"
     },
     {
       "name": "Fairy Tale",
-      "description": "Fairy tale involving magic, mythical creatures, and set in imaginary worlds."
+      "description": "Fairy tale involving magic, mythical creatures, and set in imaginary worlds"
     },
     {
       "name": "Science Fiction",
-      "description": "The story explores the impact of science and technology on society and individuals, set in the future or alternate realities."
+      "description": "The story explores the impact of science and technology on society and individuals, set in the future or alternate realities"
     },
     {
       "name": "Cyberpunk Fiction",
-      "description": "Cyberpunk fiction explores the impact of science and technology on society and individuals, set in the future or alternate realities."
+      "description": "Cyberpunk fiction explores the impact of science and technology on society and individuals, set in the future or alternate realities"
     },
     {
       "name": "Space Opera Fiction",
-      "description": "Space Opera fiction explores the impact of science and technology on society and individuals, set in the future or alternate realities."
+      "description": "Space Opera fiction explores the impact of science and technology on society and individuals, set in the future or alternate realities"
     },
     {
       "name": "Dystopian Fiction",
-      "description": "Dystopian fiction explores the impact of science and technology on society and individuals, set in the future or alternate realities."
+      "description": "Dystopian fiction explores the impact of science and technology on society and individuals, set in the future or alternate realities"
     },
     {
       "name": "Time Travel Fiction",
-      "description": "Time travel fiction explores the impact of science and technology on society and individuals, set in the future or alternate realities."
+      "description": "Time travel fiction explores the impact of science and technology on society and individuals, set in the future or alternate realities"
     },
     {
       "name": "Horror",
-      "description": "The story is designed to evoke fear, suspense, and dread, involving supernatural or psychological elements."
+      "description": "The story is designed to evoke fear, suspense, and dread, involving supernatural or psychological elements"
     },
     {
       "name": "Gothic Horror",
-      "description": "Gothic horror, designed to evoke fear, suspense, and dread, involving supernatural or psychological elements."
+      "description": "Gothic horror, designed to evoke fear, suspense, and dread, involving supernatural or psychological elements"
     },
     {
       "name": "Psychological Horror",
-      "description": "Psychological horror story, designed to evoke fear, suspense, and dread, involving supernatural or psychological elements."
+      "description": "Psychological horror story, designed to evoke fear, suspense, and dread, involving supernatural or psychological elements"
     },
     {
       "name": "Slasher Horror",
-      "description": "Slasher horror story, designed to evoke fear, suspense, and dread, involving supernatural or psychological elements."
+      "description": "Slasher horror story, designed to evoke fear, suspense, and dread, involving supernatural or psychological elements"
     },
     {
       "name": "Mystery",
-      "description": "The story is centered around solving a puzzle or crime, involving detectives or investigators."
+      "description": "The story is centered around solving a puzzle or crime, involving detectives or investigators"
     },
     {
       "name": "Detective Fiction Mystery",
-      "description": "Detective fiction centered around solving a puzzle or crime, involving detectives or investigators."
+      "description": "Detective fiction centered around solving a puzzle or crime, involving detectives or investigators"
     },
     {
       "name": "Thriller Mystery",
-      "description": "Thriller mystery centered around solving a puzzle or crime, involving detectives or investigators."
+      "description": "Thriller mystery centered around solving a puzzle or crime, involving detectives or investigators"
     },
     {
       "name": "Suspense Mystery",
-      "description": "Suspense mystery centered around solving a puzzle or crime, involving detectives or investigators."
+      "description": "Suspense mystery centered around solving a puzzle or crime, involving detectives or investigators"
     },
     {
       "name": "Thriller",
-      "description": "The story that focuses on generating suspense, excitement, and anticipation, involving high stakes and danger."
+      "description": "The story that focuses on generating suspense, excitement, and anticipation, involving high stakes and danger"
     },
     {
       "name": "Psychological Thriller",
-      "description": "Psychological thriller focused on generating suspense, excitement, and anticipation, involving high stakes and danger."
+      "description": "Psychological thriller focused on generating suspense, excitement, and anticipation, involving high stakes and danger"
     },
     {
       "name": "Action Thriller",
-      "description": "Action thriller focused on generating suspense, excitement, and anticipation, involving high stakes and danger."
+      "description": "Action thriller focused on generating suspense, excitement, and anticipation, involving high stakes and danger"
     },
     {
       "name": "Espionage Thriller",
-      "description": "Espionage thriller focused on generating suspense, excitement, and anticipation, involving high stakes and danger."
+      "description": "Espionage thriller focused on generating suspense, excitement, and anticipation, involving high stakes and danger"
     },
     {
       "name": "Romance",
-      "description": "The story focuses on romantic relationships and the emotional journey of the characters involved."
+      "description": "The story focuses on romantic relationships and the emotional journey of the characters involved"
     },
     {
       "name": "Contemporary Romance",
-      "description": "Contemporary romance focused on romantic relationships and the emotional journey of the characters involved."
+      "description": "Contemporary romance focused on romantic relationships and the emotional journey of the characters involved"
     },
     {
       "name": "Historical Romance",
-      "description": "Historical romance focused on romantic relationships and the emotional journey of the characters involved."
+      "description": "Historical romance focused on romantic relationships and the emotional journey of the characters involved"
     },
     {
       "name": "Paranormal Romance",
-      "description": "Paranormal romance focused on romantic relationships and the emotional journey of the characters involved."
+      "description": "Paranormal romance focused on romantic relationships and the emotional journey of the characters involved"
     },
     {
       "name": "Comedy",
-      "description": "The story is designed to evoke laughter and amusement, using humor, satire, or irony."
+      "description": "The story is designed to evoke laughter and amusement, using humor, satire, or irony"
     },
     {
       "name": "Romantic Comedy",
-      "description": "Romantic comedy designed to evoke laughter and amusement, using humor, satire, or irony."
+      "description": "Romantic comedy designed to evoke laughter and amusement, using humor, satire, or irony"
     },
     {
       "name": "Slapstick Comedy",
-      "description": "Slapstick comedy designed to evoke laughter and amusement, using humor, satire, or irony."
+      "description": "Slapstick comedy designed to evoke laughter and amusement, using humor, satire, or irony"
     },
     {
       "name": "Dark Comedy",
-      "description": "Dark comedy designed to evoke laughter and amusement, using humor, satire, or irony."
+      "description": "Dark comedy designed to evoke laughter and amusement, using humor, satire, or irony"
     },
     {
       "name": "Historical Fiction",
@@ -1678,7 +1678,7 @@
     {
       "name": "The Magic Mirror",
       "origin": "Snow White",
-      "description": "reveals the truth, answers questions"
+      "description": "revealing the truth, answers questions"
     },
     {
       "name": "The Seven-League Boots",
@@ -1693,17 +1693,17 @@
     {
       "name": "The Philosopher's Stone",
       "origin": "Alchemy/Legend",
-      "description": "transforms base metals into gold, an object that grants immortality"
+      "description": "transforming base metals into gold, an object that grants immortality"
     },
     {
       "name": "The Magic Wand",
       "origin": "Various Fairy Tales",
-      "description": "grants the user the ability to perform magic"
+      "description": "granting the user the ability to perform magic"
     },
     {
       "name": "The Ring of Gyges",
       "origin": "Greek Mythology",
-      "description": "grants invisibility"
+      "description": "granting invisibility"
     },
     {
       "name": "The Magic Carpet",
@@ -1713,32 +1713,32 @@
     {
       "name": "Mjolnir (Thor's Hammer)",
       "origin": "Norse Mythology",
-      "description": "controls thunder and lightning, returns to the wielder"
+      "description": "controlling thunder and lightning, returns to the wielder"
     },
     {
       "name": "The Golden Apple",
       "origin": "Greek Mythology",
-      "description": "grants immortality or causes discord"
+      "description": "granting immortality or causes discord"
     },
     {
       "name": "The Magic Comb",
       "origin": "Various Fairy Tales",
-      "description": "creates obstacles or traps"
+      "description": "creating obstacles or traps"
     },
     {
       "name": "The Magic Flute",
       "origin": "Various Fairy Tales",
-      "description": "charms or controls animals and people"
+      "description": "charming or controls animals and people"
     },
     {
       "name": "The Magic Harp",
       "origin": "Various Fairy Tales",
-      "description": "soothes or enchants those who hear it"
+      "description": "soothing or enchants those who hear it"
     },
     {
       "name": "The Magic Spinning Wheel",
       "origin": "Sleeping Beauty",
-      "description": "causes a deep sleep"
+      "description": "causing a deep sleep"
     },
     {
       "name": "The Magic Sword",
@@ -1748,17 +1748,17 @@
     {
       "name": "The Magic Potion",
       "origin": "Various Fairy Tales",
-      "description": "transforms or heals the drinker"
+      "description": "transforming or heals the drinker"
     },
     {
       "name": "The Magic Seeds",
       "origin": "Various Fairy Tales",
-      "description": "grows into magical plants or objects"
+      "description": "growing into magical plants or objects"
     },
     {
       "name": "The Magic Tablecloth",
       "origin": "Various Fairy Tales",
-      "description": "provides endless food and drink"
+      "description": "providing endless food and drink"
     },
     {
       "name": "The Magic Shoes",
@@ -1768,7 +1768,7 @@
     {
       "name": "The Magic Mirror Shards",
       "origin": "The Snow Queen",
-      "description": "distorts perception and causes coldness of heart"
+      "description": "distorting perception and causes coldness of heart"
     },
     {
       "name": "The Magic Belt",
@@ -1778,12 +1778,12 @@
     {
       "name": "The Magic Lute",
       "origin": "Various Fairy Tales",
-      "description": "creates beautiful music, can control emotions"
+      "description": "creating beautiful music, can control emotions"
     },
     {
       "name": "The Magic Comb (different power)",
       "origin": "Various Fairy Tales",
-      "description": "creates a forest when thrown to the ground"
+      "description": "creating a forest when thrown to the ground"
     },
     {
       "name": "The Magic Stone",
@@ -1793,122 +1793,374 @@
     {
       "name": "The Magic Thimble",
       "origin": "Various Fairy Tales",
-      "description": "creates clothing or repairs objects"
+      "description": "creating clothing or repairs objects"
     },
     {
       "name": "The Magic Feather",
       "origin": "Various Fairy Tales",
-      "description": "grants flight or protection"
+      "description": "granting flight or protection"
     },
     {
       "name": "The Magic Drum",
       "origin": "Various Fairy Tales",
-      "description": "Summons spirits or controls animals"
+      "description": "Summoning spirits or controlling animals"
     },
     {
       "name": "The Magic Ball",
       "origin": "Various Fairy Tales",
-      "description": "Reveals hidden paths or truths"
+      "description": "Revealing hidden paths or truths"
     },
     {
       "name": "The Magic Cap",
       "origin": "Various Fairy Tales",
-      "description": "grants invisibility or shapeshifting"
+      "description": "granting invisibility or shapeshifting"
     },
     {
       "name": "The Magic Bag",
       "origin": "Various Fairy Tales",
-      "description": "Holds an infinite amount of items"
+      "description": "Holding an infinite amount of items"
     },
     {
       "name": "The Magic Horn",
       "origin": "Various Fairy Tales",
-      "description": "Summons help or creates magical effects"
+      "description": "Summoning help or creates magical effects"
     },
     {
       "name": "The Magic Rose",
       "origin": "Beauty and the Beast",
-      "description": "Indicates the passage of time, or the state of a curse"
+      "description": "Indicating the passage of time, or the state of a curse"
     },
     {
       "name": "The Magic Teapot",
       "origin": "Various Fairy Tales",
-      "description": "Provides endless tea"
+      "description": "Providing endless tea"
     },
     {
       "name": "The Magic Brush",
       "origin": "Various Fairy Tales",
-      "description": "Brings drawings to life"
+      "description": "Bringing drawings to life"
     },
     {
       "name": "The Magic Compass",
       "origin": "Various Fairy Tales",
-      "description": "Points to the heart's desire"
+      "description": "Pointing to the heart's desire"
     },
     {
       "name": "The Magic Mirror (different power)",
       "origin": "Various Fairy Tales",
-      "description": "Shows distant places"
+      "description": "Showing distant places"
     },
     {
       "name": "The Magic Necklace",
       "origin": "Various Fairy Tales",
-      "description": "grants protection or beauty"
+      "description": "granting protection or beauty"
     },
     {
       "name": "The Magic Dice",
       "origin": "Various Fairy Tales",
-      "description": "Determines fate or an object that grants wishes"
+      "description": "Determining fate or an object that grants wishes"
     },
     {
       "name": "The Magic Book",
       "origin": "Various Fairy Tales",
-      "description": "Contains all knowledge or spells"
+      "description": "Containing all knowledge or spells"
     },
     {
       "name": "The Magic Key",
       "origin": "Various Fairy Tales",
-      "description": "Opens any lock or portal"
+      "description": "Opening any lock or portal"
     },
     {
       "name": "The Magic Loom",
       "origin": "Various Fairy Tales",
-      "description": "Weaves magical tapestries or objects"
+      "description": "Weaving magical tapestries or objects"
     },
     {
       "name": "The Magic Candle",
       "origin": "Various Fairy Tales",
-      "description": "Reveals hidden paths or truths in darkness"
+      "description": "Revealing hidden paths or truths in darkness"
     },
     {
       "name": "The Magic Gloves",
       "origin": "Various Fairy Tales",
-      "description": "grants strength or control over elements"
+      "description": "granting strength or control over elements"
     },
     {
       "name": "The Magic Net",
       "origin": "Various Fairy Tales",
-      "description": "Captures magical creatures or objects"
+      "description": "Capturing magical creatures or objects"
     },
     {
       "name": "The Magic Whistle",
       "origin": "Various Fairy Tales",
-      "description": "Summons animals or spirits"
+      "description": "Summoning animals or spirits"
     },
     {
       "name": "The Magic Powder",
       "origin": "Various Fairy Tales",
-      "description": "grants flight or invisibility"
+      "description": "granting flight or invisibility"
     },
     {
       "name": "The Magic Ink",
       "origin": "Various Fairy Tales",
-      "description": "Makes written words come to life"
+      "description": "Making written words come to life"
     },
     {
       "name": "The Magic Quill",
       "origin": "Various Fairy Tales",
-      "description": "Writes prophecies or creates magical documents"
+      "description": "Writing prophecies or creates magical documents"
+    },
+    {
+      "name": "Pen",
+      "description": "A writing instrument with ink"
+    },
+    {
+      "name": "Pencil",
+      "description": "A writing instrument with graphite"
+    },
+    {
+      "name": "Notebook",
+      "description": "A bound collection of paper for writing"
+    },
+    {
+      "name": "Smartphone",
+      "description": "A mobile phone with advanced computing capabilities"
+    },
+    {
+      "name": "Laptop",
+      "description": "A portable personal computer"
+    },
+    {
+      "name": "Keys",
+      "description": "Metal implements for locking and unlocking"
+    },
+    {
+      "name": "Wallet",
+      "description": "A small case for carrying money and cards"
+    },
+    {
+      "name": "Watch",
+      "description": "A portable timepiece"
+    },
+    {
+      "name": "Glasses",
+      "description": "Lenses set in a frame for correcting vision"
+    },
+    {
+      "name": "Mug",
+      "description": "A large cup for hot drinks"
+    },
+    {
+      "name": "Plate",
+      "description": "A flat dish for holding food"
+    },
+    {
+      "name": "Fork",
+      "description": "A utensil with prongs for eating"
+    },
+    {
+      "name": "Knife",
+      "description": "A cutting instrument with a blade"
+    },
+    {
+      "name": "Spoon",
+      "description": "A utensil with a shallow bowl for eating"
+    },
+    {
+      "name": "Table",
+      "description": "A flat-topped piece of furniture"
+    },
+    {
+      "name": "Chair",
+      "description": "A seat with a back"
+    },
+    {
+      "name": "Lamp",
+      "description": "An electric device for giving light"
+    },
+    {
+      "name": "Clock",
+      "description": "An instrument for measuring and showing time"
+    },
+    {
+      "name": "Remote Control",
+      "description": "A device for controlling electronic equipment from a distance"
+    },
+    {
+      "name": "Television",
+      "description": "An electronic device for displaying images and sound"
+    },
+    {
+      "name": "Book",
+      "description": "A written or printed work consisting of pages glued or sewn together along one side and bound in covers"
+    },
+    {
+      "name": "Headphones",
+      "description": "A device with a speaker held close to each ear"
+    },
+    {
+      "name": "Backpack",
+      "description": "A bag carried on the back"
+    },
+    {
+      "name": "Umbrella",
+      "description": "A device used for protection against rain or sun"
+    },
+    {
+      "name": "Shoes",
+      "description": "Footwear for protecting and comforting the feet"
+    },
+    {
+      "name": "Socks",
+      "description": "Soft coverings for the feet"
+    },
+    {
+      "name": "Jacket",
+      "description": "An outer garment for the upper body"
+    },
+    {
+      "name": "Mirror",
+      "description": "A reflective surface"
+    },
+    {
+      "name": "Comb",
+      "description": "A toothed instrument for arranging the hair"
+    },
+    {
+      "name": "Toothbrush",
+      "description": "A brush for cleaning the teeth"
+    },
+    {
+      "name": "Toothpaste",
+      "description": "A paste used with a toothbrush for cleaning teeth"
+    },
+    {
+      "name": "Soap",
+      "description": "A substance used with water for washing and cleaning"
+    },
+    {
+      "name": "Towel",
+      "description": "A piece of absorbent cloth used for drying or wiping"
+    },
+    {
+      "name": "Hairbrush",
+      "description": "A brush for grooming hair"
+    },
+    {
+      "name": "Deodorant",
+      "description": "A substance applied to the body to prevent or mask body odor"
+    },
+    {
+      "name": "Perfume",
+      "description": "A fragrant liquid typically made from essential oils and aroma compounds"
+    },
+    {
+      "name": "Scissors",
+      "description": "An instrument used for cutting cloth, paper, and other thin materials"
+    },
+    {
+      "name": "Tape",
+      "description": "A narrow strip of flexible material used to fasten or seal something"
+    },
+    {
+      "name": "Glue",
+      "description": "An adhesive substance used for joining materials"
+    },
+    {
+      "name": "Ruler",
+      "description": "A straight strip or cylinder of plastic, wood, or metal, typically marked with divisions used for measuring or drawing straight lines"
+    },
+    {
+      "name": "Calculator",
+      "description": "A small electronic device used to perform arithmetic calculations"
+    },
+    {
+      "name": "Calendar",
+      "description": "A chart or series of pages showing the days, weeks, and months of a particular year, or giving particular seasonal information"
+    },
+    {
+      "name": "Plant",
+      "description": "A living organism of the kind exemplified by trees, shrubs, herbs, grasses, ferns, and mosses, typically growing in a permanent site, absorbing water and inorganic substances through its roots, and synthesizing nutrients in its leaves by photosynthesis"
+    },
+    {
+      "name": "Vase",
+      "description": "An ornamental container, typically made of glass or ceramic, used for holding cut flowers or as a decorative object"
+    },
+    {
+      "name": "Pillow",
+      "description": "A cushion used to support the head, especially during sleep"
+    },
+    {
+      "name": "Blanket",
+      "description": "A large piece of woolen or other woven fabric used as a covering to keep a person warm, especially in bed"
+    },
+    {
+      "name": "Bed",
+      "description": "A piece of furniture for sleep or rest, typically a framework with a mattress and coverings"
+    },
+    {
+      "name": "Dresser",
+      "description": "A piece of furniture with drawers for storing clothes"
+    },
+    {
+      "name": "Window",
+      "description": "An opening in the wall or roof of a building or vehicle that admits light or air and allows people to see out"
+    },
+    {
+      "name": "Door",
+      "description": "A hinged, sliding, or revolving barrier at the entrance to a building, room, or vehicle, or in the opening of a cupboard or other piece of furniture"
+    },
+    {
+      "name": "Car",
+      "description": "A road vehicle, typically with four wheels, powered by an internal combustion engine or electric motor and able to carry a small number of people"
+    },
+    {
+      "name": "Bicycle",
+      "description": "A vehicle with two wheels in tandem, usually propelled by pedals"
+    },
+    {
+      "name": "Bus",
+      "description": "A large motor vehicle carrying passengers by road, typically along regular routes"
+    },
+    {
+      "name": "Train",
+      "description": "A series of railway carriages or wagons moved by a locomotive or by integral motors"
+    },
+    {
+      "name": "Map",
+      "description": "A diagrammatic representation of an area of land or sea showing physical features, cities, roads, etc"
+    },
+    {
+      "name": "Globe",
+      "description": "A spherical or rounded object"
+    },
+    {
+      "name": "Camera",
+      "description": "An apparatus for recording visual images in the form of photographs, film, or video signals"
+    },
+    {
+      "name": "Flashlight",
+      "description": "A small portable electric light"
+    },
+    {
+      "name": "Batteries",
+      "description": "A container consisting of one or more cells, in which chemical energy is converted into electricity and used as a source of power"
+    },
+    {
+      "name": "Charger",
+      "description": "A device for charging a battery or battery-powered device"
+    },
+    {
+      "name": "Extension Cord",
+      "description": "A length of flexible electrical power cable with a plug at one end and one or more sockets at the other"
+    },
+    {
+      "name": "Hammer",
+      "description": "A tool with a heavy metal head mounted at right angles at the end of a handle, used for jobs such as breaking things, driving in nails, etc"
+    },
+    {
+      "name": "Screwdriver",
+      "description": "A tool with a flattened or cross-shaped tip that fits into the head of a screw"
     }
   ],
   "resolutions": [
