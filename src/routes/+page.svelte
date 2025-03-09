@@ -4,9 +4,18 @@
     let dataJSON = null;
     let randomPrompt = '';
     let usedPrompts = new Set();
+    // let usedArchetypes = new Set();
     let prompt = null;
     let short = false;
     let intro = 'Story Blitz';
+    let roles = [
+        "Protagonist",
+        "Central figure",
+        "Main character",
+        "Lead character",
+        "Hero(ine)"
+    ];
+    let archetype = roles[0];
     let plot = '';
 
     async function fetchPrompts() {
@@ -31,9 +40,11 @@
         return arr[Math.floor(Math.random() * arr.length)];
     }
     $: prompts = null;
+    $: allArchetypes = null;
     $: plotLines = (data = null) => {
         if (!data) return;
         let {
+            archetypes,
             protagonists,
             incidents,
             settings,
@@ -54,7 +65,9 @@
             introductions,
             plots = []
         } = data;
+        allArchetypes = archetypes;
         intro = introductions[Math.floor(Math.random() * introductions.length)].name;
+        archetype = (short) ? roles[Math.floor(Math.random() * roles.length)] : archetypes[Math.floor(Math.random() * archetypes.length)].name;
         if(plots.length > 0) {
             let whichPlot = Math.floor(Math.random() * plots.length) || null;
             plot = (whichPlot) ? `<b>${plots[whichPlot].name}:</b> ${plots[whichPlot].description}` : '';
@@ -62,38 +75,48 @@
         return [
             {
                 id: 1,
-                body: `Central figure ${oneOf(protagonists)} ${oneOf(incidents)} in ${getOne(settings)} to ${oneOf(goals)}, facing ${oneOf(obstacles)} and ${oneOf(challenges)} along the way.`,
+                body: `${oneOf(incidents)}. ${archetype} ${oneOf(protagonists)} in ${getOne(settings)} to ${oneOf(goals)}, facing ${oneOf(obstacles)} and ${oneOf(challenges)} along the way.`,
             },
             {
                 id: 2,
-                body: `Main character ${oneOf(protagonists)}  ${oneOf(incidents)}, experiences ${oneOf(challenges)}  and ${oneOf(adventures)}, and returns to ${oneOf(environments)} transformed.`,
+                body: `${archetype} ${oneOf(protagonists)}  ${oneOf(incidents)}, experiences ${oneOf(challenges)} and ${oneOf(adventures)}, and returns to ${oneOf(environments)} transformed.`,
             },
             {
                 id: 3,
-                body: `Lead character ${oneOf(protagonists)} embarks on a journey to find ${oneOf(valuables)} and ${oneOf(goals)}.`,
+                body: `${archetype} ${oneOf(protagonists)} embarks on a journey to find ${oneOf(valuables)} and ${oneOf(goals)}.`,
             },
             {
                 id: 4,
-                body: `Hero(ine) ${oneOf(protagonists)} travels to ${oneOf(tones)} ${getOne(settings)}, experiences ${oneOf(transformations)}, and returns to ${oneOf(environments)} with ${oneOf(problems)}.`,
+                body: `${archetype} ${oneOf(protagonists)} travels to ${oneOf(tones)} ${getOne(settings)}, experiences ${oneOf(transformations)}, and returns to ${oneOf(environments)} with ${oneOf(problems)}.`,
             },
             {
                 id: 5,
-                body: `One of those who ${oneOf(protagonists)} travels to ${oneOf(environments)}, experiences ${oneOf(transformations)}, and returns to ${oneOf(environments)} with ${oneOf(valuables)}.`,
+                body: `${archetype} ${oneOf(protagonists)} travels to ${oneOf(environments)}, experiences ${oneOf(transformations)}, and returns to ${oneOf(environments)} with ${oneOf(valuables)}.`,
             },
             {
                 id: 6,
-                body: `${oneOf(tones)} and ${oneOf(genres)} story that involves ${oneOf(problems)},  ${oneOf(incidents)}, ${oneOf(challenges)}  and ${oneOf(adventures)}, leading to ${oneOf(resolutions)}.`,
+                body: `${oneOf(tones)} and ${oneOf(genres)} story that involves ${oneOf(problems)}, ${oneOf(incidents)}, ${oneOf(challenges)}  and ${oneOf(adventures)}, leading to ${oneOf(resolutions)}.`,
             },
             {
                 id: 7,
-                body: `${oneOf(genres)} story that depicts ${oneOf(tones)} ${oneOf(challenges)}  of ${oneOf(protagonists)} due to ${oneOf(flaws)}, ${oneOf(powers)}, and ${oneOf(creatures)}, leading to ${oneOf(resolutions)}.`,
+                body: `${oneOf(genres)} story that depicts ${oneOf(tones)} ${oneOf(challenges)} of ${oneOf(protagonists)} due to ${oneOf(flaws)}, ${oneOf(powers)}, and ${oneOf(creatures)}, leading to ${oneOf(resolutions)}.`,
             },
             {
                 id: 8,
-                body: `Protagonist ${oneOf(protagonists)} undergoes ${oneOf(problems)}, ${oneOf(transformations)} from ${getOne(settings)} to ${oneOf(goals)}, after a period of ${oneOf(challenges)}  and ${oneOf(obstacles)}.`
-            }];
+                body: `${archetype} ${oneOf(protagonists)} undergoes ${oneOf(problems)}, ${oneOf(transformations)} from ${getOne(settings)} to ${oneOf(goals)}, after a period of ${oneOf(challenges)} and ${oneOf(adventures)}.`
+            },
+            {
+                id: 10,
+                body: `${oneOf(creatures)} ${oneOf(adventures)} a ${oneOf(problems)} and saves the ${getOne(settings)}.`
+            },
+            {
+                id: 11,
+                body: `${archetype} ${oneOf(creatures)} overcomes ${oneOf(problems)} through ${oneOf(flaws)} and ${oneOf(powers)}`
+            }
+        ];
     };
     $: getRandomPrompt = () => {
+        archetype = (short || allArchetypes.length < 1) ? roles[Math.floor(Math.random() * roles.length)] : allArchetypes[Math.floor(Math.random() * allArchetypes.length)].name;
         if (usedPrompts.size === prompts.length) {
             // Reset used prompts when all have been displayed
             usedPrompts.clear();
