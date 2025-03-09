@@ -62,7 +62,7 @@
         return [
             {
                 id: 1,
-                body: `The One ${oneOf(protagonists)} ${oneOf(incidents)} in ${getOne(settings)} to ${oneOf(goals)}, facing ${oneOf(obstacles)} and ${oneOf(challenges)} along the way.`,
+                body: `Central figure ${oneOf(protagonists)} ${oneOf(incidents)} in ${getOne(settings)} to ${oneOf(goals)}, facing ${oneOf(obstacles)} and ${oneOf(challenges)} along the way.`,
             },
             {
                 id: 2,
