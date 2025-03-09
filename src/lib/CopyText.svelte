@@ -1,5 +1,8 @@
 <script>
-    let copyText = ""; // Initialize with empty string
+    import { faCopy, faCheck } from '@fortawesome/free-solid-svg-icons';
+    import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
+
+    let copyText = "";
     let copied = false;
 
     async function copyToClipboard() {
@@ -9,7 +12,7 @@
                 copied = true;
                 setTimeout(() => {
                     copied = false;
-                }, 2000); // Reset copied status after 2 seconds
+                }, 2000);
             } catch (err) {
                 console.error('Could not copy text: ', err);
                 fallbackCopyTextToClipboard(copyText);
@@ -45,33 +48,28 @@
         document.body.removeChild(textArea);
     }
 
-    export let textToCopy = "This is the text to copy."; // Prop to receive text
-    $: copyText = textToCopy; // Reactively update copyText
+    export let textToCopy = "This is the text to copy.";
+    $: copyText = textToCopy;
 </script>
 
-<!--
-<div id="textToCopy">
+<!--<div id="textToCopy">
     {textToCopy}
-    <slot />
-</div>
--->
+</div>-->
 
 <button on:click={copyToClipboard}>
-    {copied ? "Copied!" : "Copy to Clipboard"}
+    <FontAwesomeIcon icon={copied ? faCheck : faCopy} />
+<!--    {copied ? " Copied!" : " Copy"}-->
 </button>
 
 <style>
     button {
+        display: block; /* Makes icon and text align nicely */
+        align-items: center; /* Vertically centers the icon */
         position: absolute;
         top: 0;
         right: 0;
-        text-align: right;
+        background: transparent;
+        font-size: 1.3rem;
+        cursor: pointer;
     }
-/*    #textToCopy {
-        border: 1px solid #ccc;
-        padding: 10px;
-        margin-bottom: 10px;
-        width: 300px;
-        min-height: 50px;
-    }*/
 </style>
